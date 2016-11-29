@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'LFVDText'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of LFVDText.'
+  s.summary          = 'UITextView with syntax highlighting and line numbering.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+LFVDText adds line numbering and syntax highlighting to a UITextView. You can easily modify it to highlight other languages by giving new regex definitions. Line numbering courtesy of https://github.com/alldritt/TextKit_LineNumbers.
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/LFVDText'
+  s.homepage         = 'https://github.com/lufevida/LFVDText'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'lufevida' => 'lufevida@gmail.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/LFVDText.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/lufevida/LFVDText.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

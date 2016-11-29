@@ -22,7 +22,7 @@ pod "LFVDText"
 
 ## Author
 
-lufevida, lufevida@gmail.com
+Luis F. Vieira Damiani. Line numbering courtesy of https://github.com/alldritt/TextKit_LineNumbers.
 
 ## License
 
