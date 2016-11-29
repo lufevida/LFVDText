@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LFVDText_Example' do
+  pod 'LFVDText', :path => '../'
+
+  target 'LFVDText_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
